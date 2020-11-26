@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView forgotPassword;
     private TextView register;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         password=findViewById(R.id.password);
         forgotPassword=findViewById(R.id.forgotPassword);
         register=findViewById(R.id.register);
+        logInButton=findViewById(R.id.login);
         //calling logging in method
         logInButton.setOnClickListener(new View.OnClickListener() {
             @Override
