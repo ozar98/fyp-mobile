@@ -14,6 +14,9 @@
         android:textStyle="bold"
         android:textColor="@android:color/black"
 
+        app:layout_constraintDimensionRatio="width:height"
+
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.263"
@@ -27,6 +30,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        app:layout_constraintDimensionRatio="width:height"
         android:width="300dp"
         android:background="@drawable/round_border"
         android:drawableStart="@drawable/ic_lock"
@@ -47,6 +51,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
@@ -75,6 +80,7 @@
     <Button
         android:id="@+id/login"
         android:layout_width="wrap_content"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:width="300dp"
@@ -90,6 +96,7 @@
 
     <TextView
         android:id="@+id/register"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -110,6 +117,7 @@
     <ProgressBar
         android:id="@+id/loading"
         android:layout_width="match_parent"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
@@ -126,6 +134,7 @@
     <TextView
         android:id="@+id/forgotPassword"
         android:layout_width="wrap_content"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
@@ -145,6 +154,7 @@
     <TextView
         android:id="@+id/username"
         android:layout_width="wrap_content"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_height="wrap_content"
         android:text="Username"
         android:textStyle="bold"
@@ -160,6 +170,7 @@
         android:id="@+id/view"
         android:layout_width="0dp"
         android:layout_height="100dp"
+        app:layout_constraintDimensionRatio="width:height"
         android:background="@color/colorPrimary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -169,6 +180,7 @@
     <View
         android:id="@+id/view3"
         android:layout_width="wrap_content"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_height="90dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/ic_wave"
@@ -183,6 +195,7 @@
         android:id="@+id/Haveaccount"
         android:layout_width="254dp"
         android:layout_height="53dp"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_marginStart="24dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="32dp"
@@ -200,6 +213,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="95dp"
+        app:layout_constraintDimensionRatio="width:height"
         android:layout_height="91dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="16dp"
